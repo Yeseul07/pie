@@ -1,28 +1,114 @@
+<!--Pycharm 단축키: 줄간격 맞춤 ctrl+alt+i-->
 <!DOCTYPE html>
 <html lang="ko">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
         <title>PI English</title>
         <style>
             * {
-	            font-family: 'Do Hyeon', sans-serif;
+                font-family: 'Do Hyeon', sans-serif;
             }
             .search {
                 /* margin :외부여백 */
                 margin: 10px;
             }
+            .left-box {
+                background: red;
+                float: left;
+                width: 50%;
+            }
+            .right-box {
+                background: blue;
+                float: right;
+                width: 50%;
+            }
+            .imgs-left {
+                background: orangered;
+                float: left;
+                width: 50%;
+                padding: 10px;
+            }
+            .imgs-right {
+                background: blue;
+                float: right;
+                width: 50%;
+                padding: 10px;
+            }
+            .imgs-left-tmp {
+                background: orangered;
+                /*float: left;*/
+                width: 50%;
+                padding: 10px;
+            }
+
         </style>
 
     </head>
     <body>
-        <div class="search">
-            <input type="text" />
-            <button type="button" class="btn btn-secondary">Search</button>
-        </div>
+
+        <div class="wrap">
+            <p>
+            <div class="search">
+                <input type="text" />
+                <button type="button" class="btn btn-secondary">Search</button>
+            </div>
+            </p>
+
+            <p>
+                <div class='left-box'>
+<!--왼쪽-->
+                    <div class="imgs-left" >
+                        <img class="card-img-top" src="https://i.ytimg.com/vi/qFztu8nvtIg/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBmcBBUbHDhIpXYWlcfz4GIxgjyzg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+
+                    <div class="imgs-right" >
+                        <img class="card-img-top" src="https://i.ytimg.com/vi/qFztu8nvtIg/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBmcBBUbHDhIpXYWlcfz4GIxgjyzg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Description</p>
+                        </div>
+                     </div>
+
+                    <div class="imgs-left" >
+                        <img class="card-img-top" src="https://i.ytimg.com/vi/qFztu8nvtIg/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBmcBBUbHDhIpXYWlcfz4GIxgjyzg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+
+                    <div class="imgs-right" >
+                        <img class="card-img-top" src="https://i.ytimg.com/vi/qFztu8nvtIg/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBmcBBUbHDhIpXYWlcfz4GIxgjyzg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Description</p>
+                        </div>
+                     </div>
+
+                </div>
+            </p>
+
+            </div>
+                <div class='right-box'>
+<!--                 오른쪽-->
+                    <div class="imgs-left-tmp" >
+                        <img class="card-img-top" src="https://i.ytimg.com/vi/qFztu8nvtIg/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBmcBBUbHDhIpXYWlcfz4GIxgjyzg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+                    <div class="imgs-left-tmp" >
+                        <img class="card-img-top" src="https://i.ytimg.com/vi/qFztu8nvtIg/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBmcBBUbHDhIpXYWlcfz4GIxgjyzg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>
